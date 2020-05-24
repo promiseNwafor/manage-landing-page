@@ -1,9 +1,12 @@
+*{
+    overflow-x: hidden;
+}
+
 #top-container::before{
     width: 500px;
     height: 500px;
     top: -150px;
     right: -150px;
-    overflow-x: hidden;
 }
 
 nav{
