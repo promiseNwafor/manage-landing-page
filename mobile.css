@@ -1,0 +1,99 @@
+#top-container::before{
+    width: 500px;
+    height: 500px;
+    top: -150px;
+    right: -150px;
+    overflow-x: hidden;
+}
+
+nav{
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+nav .hamburger,
+#section1 .box-wrap .b1{
+    display: block;
+    width: 30px;
+}
+
+nav ul, nav .btn{
+    display: none;
+}
+
+header{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    height: auto;
+    padding: 0;
+    text-align: center;
+}
+
+header .header-image, 
+header .header-info, 
+#section1 .box2-wrap,
+#section2 .wrap,
+#section3,
+footer .footer div, .footer ul,
+#section1 .box1-wrap{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+header .header-info{
+    padding: 1rem 6rem;
+}
+
+.header-image img{
+    width: 350px;
+    margin: 0;
+}
+
+#top-container::after,
+#section2 .section2,
+#section3,
+footer .footer,
+#section1 .box-wrap{
+    display: block;
+}
+
+#mid-container::before{
+    display: none;
+}
+
+#section1{
+    display: block;
+    margin: 0;
+    padding: 3rem;
+}
+
+#section1 .box-wrap .b1{
+    float: left;
+    margin: 0 1rem 0 0;
+    padding: 0;
+    width: 50px;
+}
+
+#section1 .box-wrap{
+    text-align: left;
+    width: 100%;
+}
+
+#section1 .box-wrap h3{
+    font-size: 15px;
+    background: rgb(252, 213, 163);
+    border-radius: 20px;
+    padding-top: 0;
+    margin-top: 1rem;
+}
+   
+#section2 .wrap{
+    margin: 4rem 0.5rem 1rem 0.5rem;
+}
+
+
+#section3 p{
+    width: 80%;
+    margin: 1rem auto;
+}
